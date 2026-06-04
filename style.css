@@ -9,23 +9,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1em;
 }
 
-/* html, body{
-    overflow-x: hidden;
-} */
+html, body{
+    min-height: 100vh;
+}
 
 body{
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 main{
-    font-size: 3.42vw;
+    font-size: 3.5vw;
     margin: auto;
     font-family: "Sriracha", cursive;
   font-weight: 400;
-  font-style: large;
+  /* font-style: large; */
 }
 header{
     
@@ -34,21 +35,26 @@ header{
     width: 100%;
     /* height: 100px; */
     text-align: center;
-    padding: 20px;
+    /* padding: 20px; */
 }
 header>h1{
     padding-top: 50px;
-    font-size: 9vw;
+    font-size: 10vw;
     font-family: "Passion One", sans-serif;
   font-weight: 700;
   font-style: normal;
+   font-variant: small-caps;
     margin: 0px;
+}
+
+header p{
+    padding-bottom: 50px;
 }
 
 header a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 /* header>a:active{
     color: white;
@@ -58,14 +64,16 @@ header a{
 
 div#bug{
     
-    padding: 30px;
+     padding-top: 10vh;
+    padding-bottom: 10vh;
+     padding-left: 30px;
     
   background-image: url(imagens/background001.jpg);
   background-position: center right;
   background-size: cover;
   background-attachment: fixed;
   line-height: 2em;
-  /* font-size: larger; */
+  font-size: 3.5vw;
   font-weight: normal;
   
 
@@ -80,7 +88,10 @@ div#bug p{
 }
 
 div#letters{
-    padding: 30px;
+    /* padding: 30px; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+     padding-left: 30px;
     background-size: cover;
     background-attachment: fixed;
     background-image: url(imagens/background002.jpg);
@@ -92,17 +103,21 @@ div#letters{
 
 div#letters p{
    display: inline-block;
-    padding: 10px;
+    padding-bottom: 2em;
     background-color: rgba(0, 0, 0, 0.546);
     color: white;
 }
 
 div.common{
-    padding: 100px 30px;
+     padding-top: 10vh;
+    padding-bottom: 10vh;
+     padding-left: 30px;
+     line-height: 2em;
+     
 }
 
 div.common p{
-
+    padding-bottom: 2em;
 }
 
 footer{
